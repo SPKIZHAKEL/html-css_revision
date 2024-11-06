@@ -1,0 +1,19 @@
+@font-face {
+    src: url(fonts/Roboto-BlackItalic.ttf);
+    font-family: Roboto-Black;
+/* u can keep a name of ur choice */
+}
+@font-face
+{
+    src:url(fonts/Roboto-Italic.ttf);
+    font-family: Roboto-Italic;
+}
+h1{
+    /* fall back font is arial */
+    font-family: Roboto-Black,Verdana, arial;
+}
+p
+{
+    font-family: "lucida console","courier new";
+    font-size: 1em;
+}

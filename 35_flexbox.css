@@ -1,0 +1,35 @@
+/* we can flex the elemtns within a container using the flex property */
+.container
+{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 10px solid black;
+    height: 90vh;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.box
+{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    border-radius: 15px;
+}
+#box1
+{
+    background-color: red;
+}
+#box2
+{
+    background-color: green;
+}
+#box3
+{
+    background-color: aqua;
+    order: -1;
+}
+#box4
+{
+    background-color: blueviolet;
+}

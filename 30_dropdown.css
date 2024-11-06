@@ -1,0 +1,26 @@
+.dropdown button
+{
+    background-color: grey;
+    color: white;
+    padding: 10px 15px;
+}
+.dropdown:hover button
+{
+    background-color: yellow;
+}
+.dropdown a 
+{
+    display: block;
+}
+
+.dropdown .content
+{
+    display: none;
+    background-color: green;
+    min-width: 100px;
+    box-shadow: 2px 10px 10px red;
+}
+.dropdown:hover .content{
+    display: block;
+    /* only display list on hovering over */
+}

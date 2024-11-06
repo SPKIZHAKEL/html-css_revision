@@ -1,0 +1,32 @@
+/* margin is between border if it sthere and window
+padding is between content and border
+*/
+
+body
+{
+    margin: 0px;
+}
+.box
+{
+
+border: 5px solid;
+font-size: 5em;
+width: 250px;
+height: 300px;
+/* margin: auto;
+will keep the class elements in centre
+*/
+}
+#box1
+{
+    background-color: hsl(0,100%,60%);
+    margin-left: 40px;
+    margin-top: 50px;
+}
+#box2
+{
+    background-color: hsl(0,80%,30%);
+    margin-left: 30px;
+    /* or just margin to apply evenly. similarly margin-right cant be seen cuz div takes up an entire row */
+    margin-top: 60px;
+}

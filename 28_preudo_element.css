@@ -1,0 +1,29 @@
+h1::first-letter
+{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line
+{
+    background-color: red;
+}
+p::selection/*selected tex turns tp blk background*/
+{
+    color: white;
+    background-color: black;
+}
+#fruit li::before
+{
+    content:"👉" ;
+}
+
+#orange::after
+{
+    content: "🍊"
+}
+
+#fruit li::marker
+{
+    content: "✅";
+    color: rgb(104, 231, 104);
+} 

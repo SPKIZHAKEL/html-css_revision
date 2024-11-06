@@ -1,0 +1,28 @@
+#container
+{
+    border: 2px solid
+}
+#container p
+{/*applying css only to p tags within div*/
+    background-color: yellow;
+}
+#container1 > p
+{
+    background-color: red;
+    /* npt applied to 3 cuz it is a descendant not a child */
+}
+/* 4 and 5 are paragraph siblings to the other div */
+
+/* 4 will be selected since its directly adjacent */
+#container2 ~ p
+{
+    background-color: blue ;
+}
+
+#container3 ~ p
+{
+    background-color: green ;
+}
+
+
+

@@ -1,0 +1,23 @@
+/* there are 3 ways of applying css - inline, internal and external */
+h1{
+    color: blueviolet;
+}
+h2
+{
+    background-color: red;
+}
+/* so if u want to apply the css to one specific tag then u can use id 
+similarly if u wanna grp some of the tags use a class attribute
+*/
+#p1
+{
+    color:red
+}
+#p2
+{
+    color: yellow;
+}
+.test
+{
+    background-color: green;
+}

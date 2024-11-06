@@ -1,0 +1,19 @@
+#container
+{
+background-color: aqua;
+/* Class identifiers are allowed to start with a number, but ID identifiers are not. */
+}
+#container_1
+{
+    background-color: yellow;
+    color: yellow;
+    display: inline-block;
+ visibility: hidden; 
+    /* has visbility as if its not there, none means it has not there itsledf  */
+}
+span{
+background-color: green;
+display: block; 
+
+/* although span takes up only needed width since we have put it as block it will take up entire width */
+}

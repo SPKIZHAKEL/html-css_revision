@@ -1,0 +1,19 @@
+.box
+{
+
+    border: 2px solid;
+    padding: 20px;
+    box-sizing: border-box;
+    /* the abv makes sure that border and padding are not taken into consideration when calc the height and width
+    its actually easier to put it on all elemets * */
+    height: 200px;
+    float: left;
+    width: 30%;
+   
+}
+.container
+{
+    height: 100vh;
+    /* that is the viewport height so the entire height */
+    background-color: hsl(0, 0%, 24%);
+}

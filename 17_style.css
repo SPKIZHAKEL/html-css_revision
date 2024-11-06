@@ -1,0 +1,14 @@
+h1{
+    /* border-style: inset ;
+    border-width: 2px;
+    border-color: hsl(273, 100%, 54%); */
+    /* to write the same as abv in one line  */
+    border: 3px solid hsl(273, 100%, 54%);
+    border-radius: 20px;
+}
+p{
+    border-bottom: 3 px solid rgb(252, 28, 28);
+    border-top: 4px solid rgb(255,179, 37);
+    border-left: 3px dotted rgb(43, 255, 37);
+    border-radius: 10px;
+}

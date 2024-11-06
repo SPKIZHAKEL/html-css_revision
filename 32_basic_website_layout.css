@@ -1,0 +1,46 @@
+*
+{
+    box-sizing: border-box;
+    /* The box-sizing property allows us to include the padding and border in an element's total width and height.
+    If you set box-sizing: border-box; on an element, padding and border are included in the width and height: */
+}
+header{
+    background-color:yellow;
+    text-align: center;
+    padding: 25px;
+}
+.navbar
+{
+    background-color: aqua;
+}
+aside
+{
+    width: 20%;
+    float: left;
+}
+section
+{
+    width: 40%;
+    float: left;
+}
+article
+{
+    width: 40%;
+    float: left;
+}
+footer
+{
+    display: block;
+    background-color: hsl(0,0%,86%);
+    text-align: center;
+    padding: 25px;
+    clear: both;
+}
+/* to switch in case of smaller screen */
+@media screen and (max-width:600px) {
+ aside,section,article
+ {
+    width: 100%;
+    /* so the elemtns will be stacked on top of each other in case screen decreases in size */
+ }   
+}

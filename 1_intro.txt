@@ -1,0 +1,6 @@
+markup which tells how content should be displayed
+adds structure of the page - like foundation of a house
+
+css is styling
+
+server normally retruns index.html for homepage
